@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+.header{
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: #2d3436;
+    font-family: 'Scheherazade New', serif;
+    font-size: 3.5vw;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 5px black;
+    text-shadow: 0px 5px 15px black ;
+    color: white;
+    z-index: 100;
+
+
+}
+i{
+    padding: 30px;
+}
+
+@media (max-width:1000px){
+    .header{
+        padding-top: 15px;
+        font-size: 6.4vw;
+    }
+}
